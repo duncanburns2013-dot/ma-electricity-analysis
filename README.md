@@ -1,166 +1,122 @@
-# Massachusetts Electricity Cost Analysis
+# Massachusetts Electricity Cost Analysis - Visualizations
 
-A data-driven analysis of Massachusetts electricity costs compared to national averages, based on the Fiscal Alliance Foundation White Paper by Lisa Linowes (November 2025) and cross-referenced with U.S. Energy Information Administration (EIA) official data.
+This package contains all the charts and infographics from the Massachusetts electricity cost analysis.
 
-## Key Findings
+## Files Included
 
-- **57% higher rates** than the U.S. average (27.40¢/kWh vs 17.47¢/kWh)
-- **#3 most expensive state** in the nation (behind only Connecticut and Hawaii)
-- **81% rate increase** since 2014, growing 2.5x faster than both inflation and the national average
-- **Policy charges quadrupled** from $15/month to $59/month (2014-2025)
-- **$4.4 billion annual burden** on ratepayers statewide
-- **+$1,188/year extra cost** per household compared to national average
+### Main Dashboard
+- **comprehensive_dashboard.png** (320 KB)
+  - 4-panel overview with all key metrics
+  - Rates over time, growth comparison, monthly bills, policy charges
+  - Best for presentations and reports
 
-## Repository Structure
+### Summary Infographic
+- **how_bad_is_it_infographic.png** (403 KB)
+  - One-page summary with 8 key statistics
+  - Perfect for social media, slides, or quick reference
+  - Shows: 57% premium, #3 ranking, growth rates, costs
 
-```
-ma-electricity-analysis/
-├── data/                           # Source data files (CSV)
-│   ├── electricity_rates.csv      # Historical rate and bill data
-│   ├── state_rankings_2025.csv    # State-by-state comparison
-│   └── bill_breakdown.csv         # Bill component breakdown
-├── scripts/                        # Python scripts
-│   └── generate_visualizations.py # Main script to generate all charts
-├── outputs/                        # Generated visualizations (PNG)
-├── docs/                          # Documentation
-└── README.md                      # This file
-```
+### Individual Charts
 
-## Data Sources
+#### Rate Comparisons
+- **ma_vs_national_rates.png** (259 KB)
+  - MA vs US rates from 2014-2025
+  - Shows widening gap over time
+  - Includes annotations
 
-All data in this repository is derived from:
+- **state_ranking.png** (349 KB)
+  - Where MA ranks among all states
+  - Horizontal bar chart with MA highlighted
+  - Shows top 10 most expensive + US average + lowest
 
-1. **Fiscal Alliance Foundation White Paper**: "Massachusetts Electricity Costs: The Real Source of the Problem" by Lisa Linowes (November 2025)
-2. **U.S. Energy Information Administration (EIA)**: 
-   - Electric Power Monthly
-   - State Electricity Profiles
-   - Form EIA-861 (Annual Electric Power Industry Report)
-3. **Bureau of Labor Statistics**: Consumer Price Index (CPI-U)
-4. **Massachusetts Department of Public Utilities**: Eversource and National Grid rate filings
+#### Cost Analysis
+- **monthly_bill_comparison.png** (244 KB)
+  - Average monthly bills: MA vs US
+  - Shows cost difference per household
+  - 2014-2025 comparison bars
 
-## Usage
+- **rate_growth_comparison.png** (267 KB)
+  - Growth rates: MA, US, and inflation
+  - Demonstrates MA growing 2.5x faster
+  - Simple bar chart format
 
-### Requirements
+#### Policy Charges
+- **ma_policy_charges_growth.png** (248 KB)
+  - Policy charges from 2014-2025
+  - Shows +293% growth
+  - Bar chart with trend line
 
+- **bill_breakdown_comparison.png** (471 KB)
+  - Pie charts: 2014 vs 2025 bill composition
+  - Shows policy charges went from 13% to 29%
+  - Side-by-side comparison
+
+## Usage Rights
+
+These visualizations are based on:
+- Fiscal Alliance Foundation White Paper (Lisa Linowes, Nov 2025)
+- U.S. Energy Information Administration (EIA) official data
+- Massachusetts Department of Public Utilities rate filings
+
+When using these images, please credit:
+"Source: Fiscal Alliance Foundation White Paper (Nov 2025) | U.S. EIA Data"
+
+## Formats
+
+- All files are PNG format
+- High resolution (300 DPI)
+- Optimized for both print and digital use
+- Total package size: ~2.5 MB
+
+## Recommended Uses
+
+### For Presentations
+- Use `comprehensive_dashboard.png` for overview slides
+- Use `how_bad_is_it_infographic.png` for executive summaries
+
+### For Reports
+- Use individual charts as needed
+- All charts have clear titles and labels
+
+### For Social Media
+- `how_bad_is_it_infographic.png` works well for posts
+- Individual charts good for Twitter/X threads
+
+### For Print
+- All images are 300 DPI, suitable for printing
+- Recommended print sizes: 8.5x11" or larger
+
+## File Sizes
+- Smallest: ma_policy_charges_growth.png (248 KB)
+- Largest: bill_breakdown_comparison.png (471 KB)
+- Total: ~2.5 MB
+
+## Need Different Formats?
+
+The source code to regenerate these in different sizes/formats is available in the main repository package (ma-electricity-analysis.zip).
+
+Run:
 ```bash
-pip install pandas matplotlib numpy
-```
-
-### Generate All Visualizations
-
-```bash
-cd scripts
+cd ma-electricity-analysis/scripts
 python generate_visualizations.py
 ```
 
-This will generate:
-- `comprehensive_dashboard.png` - Main 4-panel overview
-- `ma_vs_national_rates.png` - Rate trends over time
-- `state_ranking.png` - State-by-state comparison
-- `how_bad_is_it_infographic.png` - Summary infographic
+You can modify the scripts to change:
+- Image dimensions
+- Colors
+- DPI/resolution
+- File format (PNG, PDF, SVG)
 
-### Use the Data
+## Quick Reference - Key Statistics
 
-Load the CSV files directly:
+- MA Rate: 27.4¢/kWh vs US: 17.5¢/kWh (+57%)
+- #3 Most Expensive State
+- +46% rate growth since 2014 (vs 40% US, 32% inflation)
+- Policy charges: $15/mo → $59/mo (+293%)
+- Extra cost: +$1,188/year per household
+- Statewide burden: $4.4 billion/year
 
-```python
-import pandas as pd
+---
 
-# Load historical rates
-rates = pd.read_csv('data/electricity_rates.csv')
-
-# Load state rankings
-states = pd.read_csv('data/state_rankings_2025.csv')
-
-# Load bill breakdown
-breakdown = pd.read_csv('data/bill_breakdown.csv')
-```
-
-## Data Dictionary
-
-### electricity_rates.csv
-
-| Column | Description | Unit |
-|--------|-------------|------|
-| year | Calendar year | - |
-| ma_rate_cents_per_kwh | Massachusetts average residential rate | ¢/kWh |
-| us_rate_cents_per_kwh | U.S. national average residential rate | ¢/kWh |
-| ma_monthly_bill_600kwh | MA monthly bill for 600 kWh usage | $ |
-| us_monthly_bill_600kwh | US monthly bill for 600 kWh usage | $ |
-| policy_charges_cents_per_kwh | MA policy charge component | ¢/kWh |
-| policy_charges_monthly_600kwh | MA policy charges for 600 kWh | $ |
-
-### state_rankings_2025.csv
-
-| Column | Description | Unit |
-|--------|-------------|------|
-| state | State name | - |
-| rate_cents_per_kwh | Average residential rate (Nov 2025) | ¢/kWh |
-| rank | National ranking (1=highest) | - |
-
-### bill_breakdown.csv
-
-| Column | Description | Unit |
-|--------|-------------|------|
-| component | Bill component name | - |
-| amount_2014 | Amount in 2014 for 600 kWh | $ |
-| amount_2025 | Amount in 2025 for 600 kWh | $ |
-
-## Key Metrics
-
-### Rate Growth (2014-2025)
-- Massachusetts: **+81%** (18.8¢ → 34.0¢)
-- U.S. Average: **+40%** (12.5¢ → 17.5¢)
-- Inflation (CPI): **+32%**
-
-### Policy Charges Growth (2014-2025)
-- From **2.5¢/kWh** to **9.8¢/kWh** (+293%)
-- From **$15/month** to **$59/month** for typical household
-- Now represents **29% of total bill** (up from 13%)
-
-### Annual Cost Impact
-- Extra cost per household: **+$1,188/year** vs. national average
-- Statewide burden: **$4.4 billion/year**
-- Cumulative extra cost per household (2014-2025): **>$10,000**
-
-## Policy Programs Driving Costs
-
-The primary cost drivers are state-mandated climate and energy programs:
-
-1. **Renewable Portfolio Standard (RPS)** - Mandated renewable energy credits
-2. **Regional Greenhouse Gas Initiative (RGGI)** - Carbon allowance purchases
-3. **SMART Solar Program** - Solar incentive payments
-4. **Net Metering** - Above-market compensation for solar
-5. **Mass Save** - Energy efficiency programs ($1.5 billion annually)
-
-## Analysis Notes
-
-- All rates are for **residential customers**
-- Monthly bill calculations assume **600 kWh usage** (typical MA household)
-- Policy charges include RPS, RGGI, solar programs, and energy efficiency surcharges
-- Growth rates are compounded annual growth rates (CAGR)
-- Inflation measured using BLS CPI-U (1982-84=100)
-
-## License
-
-Data is compiled from public sources. Visualizations and code are provided for educational and research purposes.
-
-## Citation
-
-If using this data or analysis, please cite:
-
-> Linowes, Lisa. "Massachusetts Electricity Costs: The Real Source of the Problem." 
-> Fiscal Alliance Foundation White Paper, November 2025.
-> Cross-referenced with U.S. Energy Information Administration data.
-
-## Contact
-
-For questions about the underlying white paper, contact:
-- Fiscal Alliance Foundation: www.fiscalalliancefoundation.org
-
-For questions about this repository:
-- Open an issue on GitHub
-
-## Updates
-
-- **2025-11-19**: Initial release with data through February 2025
+**Created:** November 20, 2025  
+**Package:** ma-electricity-visuals.zip
