@@ -1,0 +1,17 @@
+component,percentage,description,source
+Supply,40,Actual electricity generation cost,Eversource Official (Dec 2025)
+Distribution,30,Grid maintenance and delivery,Eversource Official (Dec 2025)
+Public Benefits,17,Policy mandates (Mass Save RPS SMART RGGI etc),Eversource Official (Dec 2025)
+Transmission,13,High-voltage transmission lines,Eversource Official (Dec 2025)
+
+real_bill_examples
+bill_amount,location,description,policy_charge_17pct,source
+427,Easthampton,2BR apartment,73,News reports
+709,Billerica,Single family home,121,News reports
+853,Stoughton,Family home WITH solar panels,145,News reports
+
+growth_since_2014
+component,growth_pct
+Policy Mandates,293
+Utility Costs,48
+Inflation,32

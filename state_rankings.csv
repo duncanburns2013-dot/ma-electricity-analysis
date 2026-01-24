@@ -1,0 +1,12 @@
+rank,state,rate_cents_kwh,vs_us_avg_pct,yoy_change_pct,region
+1,Hawaii,39.74,121,3.2,Pacific
+2,California,33.60,87,8.1,Pacific
+3,Massachusetts,31.37,74,7.2,New England
+4,Rhode Island,31.16,73,12.2,New England
+5,Maine,29.42,64,14.1,New England
+6,Connecticut,27.72,54,4.8,New England
+7,New Hampshire,27.27,52,5.3,New England
+8,New York,26.95,50,3.9,Mid-Atlantic
+9,Alaska,26.46,47,2.1,Pacific
+10,Vermont,24.78,38,4.2,New England
+0,U.S. Average,17.98,0,4.1,National
