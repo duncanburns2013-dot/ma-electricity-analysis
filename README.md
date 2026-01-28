@@ -1,439 +1,321 @@
-# Massachusetts Electricity Costs: Solutions Analysis
-## A Practical Roadmap to Lower Rates
+# Massachusetts Energy Policy Analysis
+## Following the Money: Lobbying, Donations, and the Highest Electricity Rates in America
+
+**Repository:** github.com/duncanburns2013-dot/ma-electricity-analysis  
+**Last Updated:** January 2026  
+**Data Sources:** MA OCPF, MA Secretary of State, U.S. EIA, Boston Herald, CommonWealth Beacon
 
 ---
 
 ## Executive Summary
 
-Massachusetts ratepayers face electricity costs 57% higher than the national average due to $4.4 billion in annual policy mandates. However, **practical legislative reforms could reduce costs by $2-3 billion per year**, saving the average household **$600-900 annually** and bringing MA rates closer to national competitiveness.
+Massachusetts residents pay **74% more for electricity** than the national average—the highest rates in the contiguous United States. This repository documents the flow of money from green energy corporations to Massachusetts politicians and lobbyists, revealing potential conflicts of interest in energy policy decisions.
 
-**This is achievable through three categories of reform:**
-1. Immediate relief (6-12 months)
-2. Structural reforms (1-2 years)  
-3. Long-term strategy (3-5 years)
+### Key Findings
 
----
-
-## The Problem in Three Numbers
-
-| Metric | Current Reality | Impact |
-|--------|----------------|---------|
-| **Annual Policy Costs** | $4.4 billion | 29% of every bill |
-| **vs. National Average** | +57% higher | +$1,188/year per household |
-| **Rate Growth Since 2014** | +46% | 2.5x faster than inflation |
-
-**Root Cause:** These are legislative mandates, not utility management issues. The solution must come from the legislature.
+| Metric | Amount | Source |
+|--------|--------|--------|
+| MA Rate Premium | +74% ($1,607/year extra per household) | EIA Nov 2024 |
+| Green Energy Corp Lobbying | $4,740,636 | MA Sec of State 2020-2025 |
+| Foreign-Owned Corp Lobbying | $2,311,694 | MA Sec of State 2020-2025 |
+| Utility Donations to Gov. Healey | $99,642 (240 donations) | OCPF Jan 2026 |
+| Crawford Firm from Energy Clients | $1,770,000 | MA Sec of State 2020-2025 |
+| SCC Employee Donations to Legislators | $272,917 (173 recipients) | OCPF Jan 2026 |
 
 ---
 
-## Solution Framework
+## Part 1: The Bill
 
-### Category 1: Immediate Relief (6-12 months)
-**Goal:** Stop the bleeding, create accountability
+### Massachusetts vs. National Electricity Rates
 
-**Actions:**
-- ✅ Pass transparency legislation requiring annual cost-benefit reports
-- ✅ Implement affordability metrics (max 3% of income for energy)
-- ✅ Freeze Mass Save budget at current levels
-- ✅ Conduct comprehensive audit of all programs
+| Metric | Massachusetts | U.S. Average | Difference |
+|--------|--------------|--------------|------------|
+| Residential Rate (Nov 2024) | 31.37¢/kWh | 17.98¢/kWh | +74% |
+| Average Monthly Bill | $188 | $108 | +$80 |
+| Annual Cost | $2,256 | $1,296 | +$960 |
+| Annual Cost (600 kWh/mo) | $2,258 | $1,295 | +$1,607* |
 
-**Potential Savings:** $500-800M/year  
-**Difficulty:** Low to Moderate  
-**Bill Impact:** -$15-25/month per household
+*Based on average MA household consumption
 
-### Category 2: Structural Reform (1-2 years)
-**Goal:** Fix the broken incentive structures
+**Source:** U.S. Energy Information Administration, Electric Power Monthly, Table 5.6.A, November 2024
 
-**Actions:**
-- ✅ Cap Mass Save at $1.0B annually (down from $1.5B)
-- ✅ Reform RPS multipliers to align with actual generation
-- ✅ Consolidate overlapping solar programs (SMART, net metering, RECs)
-- ✅ Review RGGI participation cost-effectiveness
+### Rate Trajectory
 
-**Potential Savings:** $1.0-1.5B/year  
-**Difficulty:** Moderate  
-**Bill Impact:** -$35-50/month per household
+| Year | MA Rate | US Rate | Premium |
+|------|---------|---------|---------|
+| 2014 | 18.8¢ | 12.5¢ | +50% |
+| 2018 | 24.7¢ | 13.0¢ | +90% |
+| 2022 | 30.7¢ | 15.1¢ | +103% |
+| 2024 | 35.3¢ | 16.8¢ | +110% |
+| 2025 | 31.4¢ | 17.5¢ | +79% |
 
-### Category 3: Long-Term Strategy (3-5 years)
-**Goal:** Create sustainable, market-based approach
-
-**Actions:**
-- ✅ Transition to market-based mechanisms where possible
-- ✅ Regional coordination with other New England states
-- ✅ Technology innovation incentives (not mandates)
-- ✅ Performance-based standards with cost caps
-
-**Potential Savings:** Prevents future increases  
-**Difficulty:** Moderate to High  
-**Bill Impact:** Maintains competitive rates long-term
+Massachusetts electricity rates have increased **67% since 2014**, compared to 40% nationally.
 
 ---
 
-## Specific Solutions Ranked by Impact
+## Part 2: The Legislation
 
-### 🥇 #1: Cap Mass Save Budget
-**Current Cost:** $1.5 billion/year  
-**Proposed Cap:** $1.0 billion/year  
-**Annual Savings:** $500 million
+### 2022 Climate Bill (Chapter 179)
 
-**Why This Works:**
-- Mass Save cost >$250/ton CO₂ vs. $21/ton RGGI market price (12x more expensive)
-- Many "efficiency" measures have questionable ROI
-- Focus resources on truly cost-effective measures
+Signed August 2022 by Governor Baker, this legislation:
 
-**Implementation:** Moderate difficulty, requires legislative action
+- Mandated offshore wind procurement
+- Expanded renewable portfolio standards
+- Increased Mass Save program funding
+- Added "social cost of carbon" to utility planning
 
----
+**Policy Cost Impact on Bills:**
 
-### 🥈 #2: Consolidate Solar Programs
-**Current Cost:** $800-900 million/year across multiple programs  
-**Potential Savings:** $300-400 million/year
+| Line Item | Monthly Cost | Annual Cost |
+|-----------|-------------|-------------|
+| Mass Save surcharges | ~$25 | $300 |
+| Renewable Portfolio Standard | ~$10 | $120 |
+| Solar subsidies (SMART) | ~$8 | $96 |
+| Net metering costs | ~$6 | $72 |
+| EV infrastructure | ~$3 | $36 |
+| Public benefit charges | ~$7 | $84 |
+| **Total Policy Charges** | **~$59** | **~$708** |
 
-**Why This Works:**
-- SMART, net metering, and REC purchases overlap
-- Above-market compensation no longer needed (solar is cost-competitive)
-- Streamlined program reduces administrative costs
+**Source:** Eversource rate filings, MA DPU, State Senator Will Brownsberger analysis
 
-**Implementation:** Moderate difficulty, requires DPU and legislative action
+### Third-Party Supplier Protection
 
----
+Roy's committee repeatedly blocked legislation to ban third-party electricity suppliers (competitive supply), an industry that:
 
-### 🥉 #3: Reform RPS Multipliers
-**Current Cost:** Embedded in rates, estimated $400-500M/year  
-**Potential Savings:** $200-300 million/year
-
-**Why This Works:**
-- Current multipliers overvalue certain renewable sources
-- Market prices have dropped since multipliers were set
-- Align incentives with actual clean energy value
-
-**Implementation:** Moderate difficulty, DPU rulemaking with legislative support
+- Cost MA consumers **$525 million extra** from 2015-2021 (MA AG data)
+- Industry group REAL spent **$256,000** lobbying 2023-2025
+- Vistra (a competitive supplier) paid Crawford's firm **$480,000**
 
 ---
 
-### #4: Review RGGI Participation
-**Current Cost:** $150-200 million/year  
-**Potential Savings:** $150-200 million/year (if reformed)
+## Part 3: The Money
 
-**Why This Works:**
-- RGGI costs have risen while benefits to MA are unclear
-- Most emission reductions came from coal retirements (would have happened anyway)
-- Could negotiate lower caps or transition to more cost-effective mechanisms
+### Green Energy Corporate Lobbying (2020-2025)
 
-**Implementation:** Difficult, requires interstate negotiation
+| Company | Headquarters | Total Lobbying | Primary Firm |
+|---------|-------------|----------------|--------------|
+| NextEra Energy | 🇺🇸 Florida | $1,643,716 | TSK, Dempsey |
+| Ørsted | 🇩🇰 Denmark | $1,025,194 | BCB, SCC |
+| Avangrid (Iberdrola) | 🇪🇸 Spain | $930,000 | Smith, Costello & Crawford |
+| Vistra | 🇺🇸 Texas | $529,226 | Smith, Costello & Crawford |
+| SouthCoast Wind (Shell) | 🇳🇱 Netherlands | $356,500 | Commonwealth, Dewey Square |
+| REAL (Supplier Trade Group) | Trade Assoc. | $256,000 | O'Neill and Partners |
+| **TOTAL** | | **$4,740,636** | |
 
----
+**Foreign-Owned Total:** $2,311,694 (49%)
 
-### #5: Implement Affordability Metrics
-**Current Cost:** $0 (new program)  
-**Savings:** Prevents future increases
+**Source:** MA Secretary of State, Lobbyist Public Search, January 2026
 
-**Why This Works:**
-- No state currently has hard affordability caps
-- Would force prioritization of cost-effective programs
-- Protects low-income ratepayers
+### Lobbying Firms Receiving Energy Money
 
-**Implementation:** Easy, legislative action only
+| Firm | Energy Revenue | Top Clients |
+|------|---------------|-------------|
+| **Smith, Costello & Crawford** | **$1,770,000** | Avangrid $930K, Vistra $480K, Ørsted $360K |
+| BCB Government Relations | $568,750 | Ørsted |
+| TSK / Travaglini Scorzoni | $520,000 | NextEra |
+| Dempsey Associates | $437,500 | NextEra |
+| Chartwell / Capitol Consulting | $525,000 | NextEra |
+| Commonwealth / Dewey Square | $357,000 | SouthCoast Wind |
+| O'Neill and Partners | $256,000 | REAL |
 
----
+### Campaign Donations to Governor Healey
 
-### #6: Require Transparent Reporting
-**Current Cost:** $0 (new program)  
-**Savings:** Enables accountability and informed decisions
+| Utility | Donations | Amount | Years |
+|---------|-----------|--------|-------|
+| Eversource | 83 | $45,112 | 2016-2025 |
+| National Grid | 79 | $28,330 | 2014-2025 |
+| Avangrid | 78 | $26,200 | 2018-2025 |
+| **TOTAL** | **240** | **$99,642** | |
 
-**Why This Works:**
-- Currently no standardized cost-benefit reporting
-- Public can't evaluate program effectiveness
-- Sunlight is the best disinfectant
+**Verification:** Boston Herald (Jul 29, 2024) reported $16,425 from 38 Avangrid donations through Jul 2024. OCPF records show $16,450 from 39 donations—a match within $25.
 
-**Implementation:** Easy, legislative action only
+**Source:** MA Office of Campaign and Political Finance (OCPF), raw data export, January 2026
 
----
+#### Avangrid Donation Timing
 
-## Cost Reduction Scenarios
+| Year | Donations | Amount | Context |
+|------|-----------|--------|---------|
+| 2018 | 2 | $1,500 | — |
+| 2020 | 1 | $100 | — |
+| **2022** | **32** | **$14,175** | Climate bill negotiations; offshore wind contracts awarded |
+| 2023 | 4 | $675 | — |
+| 2024 | 14 | $3,600 | — |
+| **2025** | **25** | **$6,150** | Offshore wind renegotiations |
 
-### Scenario 1: Status Quo
-- Annual cost: $4.4B
-- Rate: 27.4¢/kWh
-- Bill: $204/month
-- **Action:** None
+### Smith, Costello & Crawford Employee Donations
 
-### Scenario 2: Immediate Reforms (Cap Mass Save, transparency)
-- Annual cost: $3.6B (-$800M)
-- Rate: 24.0¢/kWh
-- Bill: $170/month (-$34)
-- **Savings per household:** $408/year
+**Total to MA Legislators:** $272,917 to 173 recipients
 
-### Scenario 3: Add Structural Reforms (RPS, solar consolidation)
-- Annual cost: $3.0B (-$1.4B from current)
-- Rate: 21.5¢/kWh
-- Bill: $145/month (-$59 from current)
-- **Savings per household:** $708/year
+**Top 10 Recipients:**
 
-### Scenario 4: Full Package (All reforms including RGGI review)
-- Annual cost: $2.2B (-$2.2B from current)
-- Rate: 20.5¢/kWh
-- Bill: $145/month (-$59 from current)
-- **Savings per household:** $708/year
+| Rank | Legislator | Amount | Donations |
+|------|-----------|--------|-----------|
+| 1 | John Lawn | $12,550 | 64 |
+| 2 | Marjorie Decker | $7,250 | 37 |
+| 3 | Mark Cusack | $7,000 | 35 |
+| 4 | Bruce Tarr | $6,800 | 34 |
+| 5 | James Murphy | $6,000 | 30 |
+| 6 | Michael Moran | $6,000 | 30 |
+| 7 | Daniel Ryan | $5,800 | 29 |
+| 8 | Bradley Jones | $5,400 | 27 |
+| **9** | **Jeffrey Roy** ★ | **$5,400** | **27** |
+| 10 | Michael Day | $5,400 | 27 |
 
-### Goal: Approach National Average
-- Target cost: $1.8B
-- Target rate: 17.5¢/kWh
-- Target bill: $105/month
-- **Gap remaining:** 17% above average (vs. 57% currently)
+★ Former House Energy Chair with undisclosed relationship to firm partner
 
----
-
-## Learning from Other States
-
-### Success Stories
-
-**Pennsylvania** (14.5¢/kWh)
-- Market-based renewable energy approach
-- No mandatory RPS multipliers
-- Competition drives innovation and cost control
-
-**Ohio** (15.2¢/kWh)
-- Balanced portfolio with cost caps
-- Regular cost-benefit reviews
-- Flexible mandates that adjust to market conditions
-
-**New Hampshire** (26.1¢/kWh - but improving)
-- Recently reformed RPS structure
-- Reduced near-term targets
-- Focused on cost-effective measures
-
-### What Works
-✅ Cost caps and affordability metrics  
-✅ Market-based mechanisms where possible  
-✅ Regular program evaluation and sunset provisions  
-✅ Transparency and public reporting  
-✅ Flexibility to adjust mandates based on costs
-
-### What Doesn't Work
-❌ Open-ended mandates with no cost caps  
-❌ Multiple overlapping programs  
-❌ Above-market incentives when no longer needed  
-❌ Multipliers that don't reflect actual value  
-❌ Lack of accountability or performance metrics
+**Source:** OCPF, employer field = "Smith, Costello & Crawford"
 
 ---
 
-## Implementation Timeline
+## Part 4: The Conflicts
 
-### **Phase 1: Months 0-6 (Quick Wins)**
+### Rep. Jeffrey Roy & Jennifer Crawford
 
-**Legislative Actions:**
-- Month 1-2: Pass transparency and reporting requirements
-- Month 2-3: Establish affordability metrics
-- Month 3-4: Freeze Mass Save budget growth
-- Month 4-6: Complete comprehensive audit of all programs
+**Jeffrey Roy**
+- Former House Chair, Telecommunications, Utilities & Energy Committee
+- Served during 2022 climate bill negotiations
+- Committee had jurisdiction over offshore wind contracts
+- Committee blocked ban on third-party energy suppliers
+- **Removed as Chair:** February 2025
 
-**Expected Impact:**
-- Savings: $200M/year
-- Bill reduction: ~$8/month
-- Difficulty: Low
+**Jennifer Crawford**
+- Partner, Smith, Costello & Crawford
+- Firm was top-earning MA lobbying firm ($6.2M revenue, 2024)
+- Represents Avangrid, Vistra, Ørsted
+- Was in romantic relationship with Rep. Roy
+- Personal donations to 115 legislators ($59,150 total)
 
----
+### The Connection
 
-### **Phase 2: Months 6-18 (Major Reforms)**
+| Energy Company | Paid Crawford's Firm | Roy's Committee Action |
+|---------------|---------------------|----------------------|
+| Avangrid | $930,000 | Approved offshore wind contracts |
+| Vistra | $480,000 | Blocked third-party supplier ban |
+| Ørsted | $360,000 | Approved offshore wind contracts |
+| **TOTAL** | **$1,770,000** | |
 
-**Legislative/Regulatory Actions:**
-- Month 6-9: Implement Mass Save cap at $1B
-- Month 9-12: Reform RPS multipliers (DPU rulemaking)
-- Month 12-15: Consolidate solar programs
-- Month 15-18: Negotiate RGGI terms with other states
+### Timeline
 
-**Expected Impact:**
-- Savings: $1.0B/year (cumulative)
-- Bill reduction: ~$35/month
-- Difficulty: Moderate
+| Date | Event |
+|------|-------|
+| 2020-2022 | Roy serves as Energy Chair during climate bill negotiations |
+| Aug 2022 | Climate bill signed; offshore wind contracts approved |
+| **Jul 10, 2023** | **Roy files ethics disclosure revealing relationship with Crawford** |
+| **Jul 11, 2023** | **Roy's wife files for divorce (one day after disclosure)** |
+| Feb 2025 | Roy removed as House Energy Chair |
 
----
-
-### **Phase 3: Months 18-36 (Structural Changes)**
-
-**Long-term Reforms:**
-- Month 18-24: Implement market-based mechanisms
-- Month 24-30: Regional coordination initiatives
-- Month 30-36: Establish long-term cost caps and performance standards
-
-**Expected Impact:**
-- Savings: $2.2B/year (cumulative)
-- Bill reduction: ~$75/month
-- Difficulty: Moderate to High
-- Prevents future increases
+**Sources:** MA Ethics Commission disclosure (Jul 10, 2023), CommonWealth Beacon (Mar 19, 2025), State House News Service
 
 ---
 
-## Bill Impact Analysis
+## Part 5: Offshore Wind Projects
 
-### Current Situation
-**Average Household (600 kWh/month)**
-- Total bill: $204
-- Policy charges: $59 (29%)
-- Supply: $58
-- Delivery: $60
-- Transmission: $27
+### Massachusetts Offshore Wind Contracts
 
-### After Immediate Reforms
-- Total bill: $170 (-$34)
-- Policy charges: $40 (-$19)
-- **Annual savings: $408**
+| Project | Owner | Capacity | Status |
+|---------|-------|----------|--------|
+| Vineyard Wind 1 | Avangrid 🇪🇸 / CIP 🇩🇰 | 806 MW | Operational |
+| SouthCoast Wind | Shell 🇳🇱 | 1,200 MW | Renegotiated 2024 |
+| Commonwealth Wind | Avangrid 🇪🇸 | 1,232 MW | Renegotiated 2024 |
+| Mayflower Wind | Shell 🇳🇱 | 1,200 MW | Cancelled 2023 |
+| Revolution Wind | Ørsted 🇩🇰 | 400 MW | Under Construction |
 
-### After Full Reform Package
-- Total bill: $145 (-$59)
-- Policy charges: $30 (-$29)
-- **Annual savings: $708**
+**Foreign Ownership:** 100% of major projects owned by Spain, Denmark, or Netherlands corporations
 
-### Comparison to US Average
-- US average bill: $105
-- Gap after reforms: $40 (vs. $99 currently)
-- **Percentage improvement: 60% reduction in gap**
+### Cost Overruns
 
----
+| Project | Original Estimate | Current Estimate | Overrun |
+|---------|------------------|------------------|---------|
+| NECEC Transmission (Avangrid) | $950M | $1.47B | +$521M (+55%) |
 
-## Political Feasibility
+**Note:** After developers cited rising costs, MA allowed renegotiation of contracts at higher prices. Original competitive bids were replaced with negotiated rates, with costs passed to ratepayers.
 
-### What's Happening Now
-
-**Positive Signs:**
-- New legislation advancing in MA House addresses affordability
-- Would cap Mass Save, scale back mandates, remove "social cost of carbon"
-- Explicitly framed as ratepayer relief
-- Bipartisan concern about electricity costs
-
-**Challenges:**
-- Entrenched interests benefit from current programs
-- Some view any reform as "anti-climate"
-- Utilities have adapted business models to mandates
-- Regional coordination requires multi-state agreement
-
-### Building Support
-
-**Who Benefits from Reform:**
-- ✅ All ratepayers (residential, commercial, industrial)
-- ✅ Low-income households (disproportionately impacted)
-- ✅ Businesses concerned about competitiveness
-- ✅ Legislators facing constituent anger over bills
-
-**Messaging Strategy:**
-- Frame as "smarter climate policy, not less climate policy"
-- Emphasize cost-effectiveness and accountability
-- Compare to other states' successful models
-- Focus on protecting vulnerable populations
-- Show data: current programs cost 12x more per ton CO₂ than alternatives
+**Source:** MA DPU offshore wind contract filings, 2022-2024; NECEC cost estimates, MA DPU Docket 20-80
 
 ---
 
-## Common Questions
+## Data Sources & Methodology
 
-### Q: Won't this hurt climate goals?
-**A:** No. These reforms make climate policy more cost-effective, not less effective. We can achieve the same emissions reductions at 1/10th the cost through market-based mechanisms and proven technologies.
+### Primary Sources
 
-### Q: What about jobs in the clean energy sector?
-**A:** Reform focuses resources on cost-effective measures, which creates more sustainable jobs. Current programs subsidize inefficient approaches that won't survive without mandates.
+1. **U.S. Energy Information Administration (EIA)**
+   - Electric Power Monthly, Table 5.6.A
+   - State Electricity Profiles
+   - eia.gov
 
-### Q: Isn't this just about protecting fossil fuels?
-**A:** No. The data shows policy costs, not fuel costs, are driving high rates. Natural gas and renewables both need market-based approaches, not above-market mandates.
+2. **MA Office of Campaign and Political Finance (OCPF)**
+   - Raw data exports, January 2026
+   - ocpf.us searchable database
+   - Employer field matching for corporate donations
 
-### Q: Other New England states have similar costs. Why single out MA?
-**A:** MA ranks #3 most expensive. While regional coordination is needed, MA can act unilaterally on Mass Save, solar programs, and RPS reforms. These are state decisions.
+3. **MA Secretary of State**
+   - Lobbyist Public Search
+   - sec.state.ma.us/lobbyistpublicsearch
+   - Individual company lobbying disclosure filings
 
-### Q: Won't utilities fight this?
-**A:** Some utilities may prefer the current system where they're guaranteed recovery of program costs. However, reform protects utilities' core business while making them more competitive for new customers.
+4. **MA Department of Public Utilities (DPU)**
+   - Rate filings
+   - Offshore wind contract dockets
+   - NECEC Transmission Docket 20-80
 
----
+### News Sources
 
-## Call to Action
+- Boston Herald, "Healey received donations from Avangrid," Jul 29, 2024
+- CommonWealth Beacon, "The money behind Beacon Hill lobbying," Mar 19, 2025
+- State House News Service (Roy removal), Feb 2025
+- WBUR, "These energy suppliers say they can save you money. Regulators say it's a scam," Mar 28, 2024
 
-### For Residents
-1. **Contact your legislators** - Tell them electricity affordability matters
-2. **Share this analysis** - Help neighbors understand the real problem
-3. **Attend public hearings** - Make your voice heard at DPU proceedings
-4. **Support reform bills** - Track legislation addressing affordability
+### Methodology
 
-### For Legislators
-1. **Pass transparency requirements** - Make all program costs visible
-2. **Implement affordability caps** - Protect vulnerable ratepayers
-3. **Conduct cost-benefit audits** - Evaluate every program's effectiveness
-4. **Support pending reform legislation** - Build on current momentum
-
-### For Business Leaders
-1. **Document impact on competitiveness** - Show legislators real costs
-2. **Join business coalitions** - Speak with united voice for reform
-3. **Compare to other states** - Demonstrate MA disadvantage
-4. **Support market-based solutions** - Not more mandates
-
-### For Advocates
-1. **Focus on cost-effectiveness** - Not "climate vs. economy"
-2. **Use data from this analysis** - Facts matter in policy debates
-3. **Build broad coalitions** - This affects everyone
-4. **Propose specific solutions** - Not just complaints
+1. **Lobbying Data:** Extracted from MA Secretary of State filings by company name, aggregated by firm
+2. **Campaign Finance:** OCPF raw data filtered by employer field containing utility/energy company names
+3. **Rate Data:** EIA official statistics, residential sector
+4. **Verification:** Cross-referenced news reports with primary source data where available
 
 ---
 
-## Key Takeaways
+## Infographics
 
-### ❌ THE PROBLEM
-- Policy mandates cost $4.4B/year with unclear benefits
-- Average household pays $1,188/year extra vs. US average
-- Programs lack cost-effectiveness standards
-- Growing 13%/year with no caps or accountability
+All infographics available in `/infographics/` folder:
 
-### ✓ THE SOLUTION
-- Legislative reforms can save $2-3B annually
-- Implement caps, transparency, and accountability
-- Learn from states with better cost management
-- Market-based approaches achieve same goals at lower cost
-
-### 💰 THE SAVINGS
-- Average household: $600-900/year
-- MA rate: 27.4¢ → 20.5¢/kWh
-- Still above US average but competitive
-- Cumulative savings: billions over decade
-
-### ⚡ THE ACTION
-- Contact legislators about reform bills
-- Demand cost-benefit analysis for all programs
-- Support transparency and accountability
-- Share this analysis to build awareness
+| File | Description |
+|------|-------------|
+| 01_rates.png | MA vs US electricity rates comparison |
+| 02_lobbying.png | Green energy corporate lobbying breakdown |
+| 03_donations.png | Campaign donations to Gov. Healey |
+| 04_conflicts.png | Roy & Crawford conflicts of interest |
+| 05_wind.png | Offshore wind contracts and ownership |
+| 06_summary.png | Summary dashboard |
+| 07_lobby_flow.png | Money flow: companies → lobbying firms |
+| 08_healey_energy.png | Healey donations by energy company |
 
 ---
 
-## Conclusion
+## Key Questions
 
-Massachusetts' electricity cost crisis is real, but it's also solvable. The problem isn't utility mismanagement—it's legislative mandates that cost far more than necessary to achieve climate goals.
-
-**The good news:** Practical reforms can save billions while maintaining environmental progress. States like Pennsylvania and Ohio prove that market-based approaches work better and cost less.
-
-**The challenge:** Reform requires legislative action, not utility initiatives. Ratepayers must make their voices heard.
-
-**The opportunity:** Pending legislation shows momentum for change. With sustained public pressure and data-driven advocacy, Massachusetts can achieve both affordability and environmental goals.
-
-**The time is now.** Every year of delay costs ratepayers billions more.
+1. Why did Avangrid donations to Healey spike 32x in 2022 during climate bill negotiations?
+2. Why was Rep. Roy's relationship with Crawford—whose firm received $1.77M from companies he regulated—not disclosed until July 2023?
+3. Why did Roy's committee repeatedly block bans on third-party suppliers while Vistra paid Crawford's firm $480K?
+4. Why are 100% of MA offshore wind projects owned by foreign corporations?
+5. Why were contracts renegotiated at higher prices after competitive bidding?
+6. Why do MA residents pay 74% more for electricity than the national average?
 
 ---
 
-## Resources & References
+## Updates
 
-**Data Sources:**
-- Fiscal Alliance Foundation White Paper (Lisa Linowes, Nov 2025)
-- U.S. Energy Information Administration (EIA)
-- Massachusetts Department of Public Utilities rate filings
-- Regional Greenhouse Gas Initiative reports
-- Mass Save program budgets (EEAC)
-
-**Useful Links:**
-- MA Legislature: www.malegislature.gov
-- MA DPU: www.mass.gov/dpu
-- EIA State Profiles: www.eia.gov/state/
-- DOER Compliance Reports: www.mass.gov/doer
-
-**Contact:**
-- Fiscal Alliance Foundation: www.fiscalalliancefoundation.org
+- **Jan 28, 2026:** Added lobbying flow chart, SCC recipient analysis, Healey energy company breakdown
+- **Jan 24, 2026:** Initial release with rate analysis, donation data, Roy/Crawford timeline
 
 ---
 
-*Analysis prepared: November 2025*  
-*Based on verified data through February 2025*
+## License
+
+This analysis uses publicly available government data. All sources are cited. This repository is for educational and journalistic purposes.
+
+---
+
+## Contact
+
+GitHub: @duncanburns2013-dot  
+Twitter/X: @DuncanBurnsMA
